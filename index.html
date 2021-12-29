@@ -1,0 +1,111 @@
+<!DOCTYPE html> <!-- tipo de documento -->
+<html lang="es"> <!-- etiq global --> 
+<head> <!-- comunicacion con el navegador -->
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- no puede faltar -->
+  <link rel="stylesheet" href="css/styles.css"> <!-- Enlace de CSS con el HTML-->
+  <title>John Zapata Desarrollador Web</title> <!-- nombre de pestaña -->
+  <link rel="icon" type="imagenes/png" href="./imagenes/logoazul.png"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body> <!-- toda la informacion que esta dentro de la pagina -->
+  <div class="principal">
+    <nav>
+      <a href="#" class="enlace">
+      <img src="./imagenes/logoazul.png" alt="" class="logo">
+      </a>
+       <input type="checkbox" id="check">
+       <label for="check" class="checkbtn">
+       <i class="fas fa-bars"></i>
+       </label>
+      <ul>
+        <li><a class="active" href="#">Inicio</a></li>
+        <li><a href="./portafolio.html" target="_blank">Portafolio</a></li>
+        <li><a href="./habilidades.html" target="_blank">Habilidades</a></li>
+        <li><a href="./contactos.html" target="_blank">Contanto</a></li>
+        <li><a href="./pdf/jzcv.pdf" target="_blank">Descarga curriculum</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container">
+      <header id="header" class="contenedor-header"> 
+        <section class="bannercontenedor">
+          <div class="banner_title">
+              <h1 class="titlejohnzapata">JOHN ZAPATA</h1>
+          </div>
+          <div class="banner_descarga">
+            <a href="./pdf/jzcv.pdf" target="_blank" class="descarga">Descarga CV</a>
+          </div>
+          <div class="banner_img">
+            <img src="imagenes/john.jpg" alt="">
+          </div> 
+        </section>
+      </header>         
+  </div>
+  <section class="sobremi" id="sobre">  
+    <h2 class="secciontitulo">Sobre mí</h2>
+    <div class="grid-container">
+      <div class="caricatura-imag">
+        <img src="./imagenes/caricatura.png" width="200" height="200" >
+      </div>
+      <div class="sobre-mi">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maxime nobis distinctio accusamus iure cupiditate quaerat molestiae minus iusto exercitationem sapiente, molestias repellat doloremque illo soluta, tempore dolorum! Magnam!</p>
+      </div>
+    </div>
+  </section>
+  <section class="habilidad" id="htmlccsjs">
+    <h2 class="tituhabilidad">Habilidades</h2>
+    <div class="logohtmlcssjs">
+      <a href="./habilidades.html" target="_black">
+        <img src="./imagenes/iconohtmlcss.png" width="450" height="200" alt="iconohtmlcss">
+      </a>
+    </div>
+  </section>
+  <section class="portafolio" id="proyectos">
+    <h2 class="tituportafolio">Portafolio</h2>
+    <div class="parent">
+      <iframe id="Example1"
+    title="iframe Example 1"
+    width="700" height="300"
+    style="border:none"
+    src="./index.html">
+     </iframe>
+     <iframe id="Example2"
+    title="iframe Example 2"
+    width="700" height="300"
+    style="border:none"
+    src="./fotografia/foto.html">
+    </iframe>
+    </div>  
+  </section> 
+  <div class="row">
+    <h2>
+        Cuida tu
+        <div class="change" id="rotate">
+            <span>planeta</span>
+            <span>familia</span>
+            <span>mente</span>
+            <span>cuerpo</span>
+        </div>
+         , por favor!
+    </h2>
+  </div> 
+  <div>
+    <footer>
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/JohnZapata85/" target="_black" class="fab fa-facebook-square"></a>
+      <a href="https://www.instagram.com/j_z_2_3_/" target="_black" class="fab fa-instagram-square"></a>
+      <a href="https://twitter.com/J_Z_2_3" target="_black" class="fab fa-twitter-square"></a>
+      <a href="https://www.linkedin.com/in/john-zapata-6315a2179/" target="_black" class="fab fa-linkedin"></a>
+    </div>
+    <div class="piso">
+      <p class="copy">© 2021 John Zapata / Todos los derechos reservados</p>
+    </div>
+    </footer>
+  </div>
+  <script src="https://kit.fontawesome.com/301a73ada2.js" crossorigin="anonymous"></script>
+</body>
+</html>
