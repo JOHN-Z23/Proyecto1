@@ -6,7 +6,7 @@
 }
 body{ 
     margin: 0;
-    background-image: url(/clase-1/imagenes/espacio.jpg);
+    background-image: url(/imagenes/espacio.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
