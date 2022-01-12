@@ -4,6 +4,7 @@
   <meta charset="UTF-8"> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- no puede faltar -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> <!-- Enlace de Boostrap-->
   <link rel="stylesheet" href="./styles.css"> <!-- Enlace de CSS con el HTML-->
   <title>John Zapata Desarrollador Web</title> <!-- nombre de pestaña -->
   <link rel="icon" type="imagenes/png" href="./imagenes/logoazul.png"/>
@@ -30,7 +31,7 @@
       </ul>
     </nav>
   </div>
-  <!--------------------- ENCABEZADO --------------------------->
+  <!--------------------- ENCABEZADO 
   <header id="header" class="contenedor-header"> 
     <section class="bannercontenedor">
       <div class="banner_title">
@@ -43,7 +44,25 @@
         <img src="imagenes/john.jpg" alt="">
       </div> 
     </section>
-  </header>         
+  </header> ---------------------------> 
+  <header id="header" class="contenedor-header"> 
+    <div class="container px-7">
+      <div class="row gx-5">
+        <div class="col">
+         <div class="p-2"><h1 class="titlejohnzapata">JOHN ZAPATA</h1></div>
+        </div>
+        <div class="col">
+          <div class="p-2"><img src="imagenes/john.jpg" alt="" class="rounded-circle"></div>
+        </div>
+      </div>
+    </div>  
+ </header> 
+  <!--------------------- Descarga CV ------------------------> 
+  <section class="Descargacv">
+    <div class="banner_descarga">
+      <a href="./pdf/jzcv.pdf" target="_blank" class="descarga">Descarga CV</a>
+    </div>
+  </section>
   <!--------------------- SOBRE MI --------------------------->
   <section class="sobremi" id="sobre">  
     <h2 class="secciontitulo">Sobre mí</h2>
@@ -116,5 +135,6 @@
     </footer>
   </div>
   <script src="https://kit.fontawesome.com/301a73ada2.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
