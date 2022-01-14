@@ -195,19 +195,18 @@ margin-block-end: 20px;
 /*-------------  PAGINA DE CONTACTO  -------------*/
 
 .contacto {
-    margin: 10% 0% 40% 35%;
-
-    
+    margin: 10% 0% 40% 35%; 
 }
 .text-center {
     text-align: left;
     font-size: 30px;
-    color: rgba(197, 230, 243, 0.952);
-    text-shadow: rgb(5, 28, 158) -5px -1px;
+    color: rgba(90, 131, 207, 0.952);
+    text-shadow: rgb(5, 28, 158) -4px -1px;
     padding: 10px 10px;
 }
-label{
-    color: rgb(253, 253, 253);
+span{
+    color: rgb(14, 13, 13);
+    padding: 5px 10px;
 }
 textarea{
     border-radius: 1%;       
