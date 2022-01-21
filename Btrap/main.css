@@ -5,37 +5,23 @@ body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
-
-
 /*===================MENU==========================*/
-
  #menu a, button{
      font-size: 18px !important;
-     font-weight: 600;
-    
+     font-weight: 600; 
  }
-
  #menu a{
-     color:#3f3f3f;
-     
+     color:#3f3f3f;  
  }
-/*===================SLIDER DE IMAGENES max-height: 39rem !important; ==========================*/
-
+/*=================SLIDER DE IMAGENES max-height: 39rem !important; ==========================*/
 .carousel-inner img {
-    height: auto;
-       
+    height: auto;      
 }
-
 /*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
-
-
-
 #img-equipo{
     max-height:30rem !important;
     width: 100%;
 }
-
-
 /*===================SECCION NUESTRO EQUIPO MAPA==========================*/
 #local {
     margin-top:50px;
@@ -52,7 +38,6 @@ body {
     margin-left:100px;
     padding-top:150px;
 }
-
 /*=========================CONTACTOS BACKGROUND================================*/
 
 #bg-contactos{
@@ -65,28 +50,19 @@ body {
     min-height:500px;
     position:relative;
 }
-
 /*=========================CONTACTOS FORMULARIO================================*/
-
 #contenedor-formulario{
     position:absolute;
     top:30%;
     left:50%;
     transform: translate(-50%, -50%);
     background: #fbfafa;
-    border-radius:5px;
-    
+    border-radius:5px;   
 }
-
 #titulo-formulario {
     color: #3f3f3f;
 }
-
-
-
-
 /*=========================FOOTER================================*/
-
 footer {
     background: #1b2a4e;
     min-height: 100px;;
@@ -100,7 +76,6 @@ footer p{
     padding: 0 8px;
     color:#f3f3f3;
 }
-
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
@@ -118,19 +93,13 @@ footer p{
     margin:auto;
     padding-top:50px;    
    }
- 
 }
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
-
-
 @media (max-width:768px) {
-
     #intro, #equipo{
         width:90% !important;
         margin:auto;
     }
-
-    
     #img-equipo{
         max-height:20rem !important;
         width:90%;
@@ -150,11 +119,8 @@ footer p{
     #bg-contactos{
         top: -120px;
     }
-
-
 }
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
-
 @media (max-width: 576px) {
     #servicios-fila-2 {
         width:100% !important;
