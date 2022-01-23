@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!-- Enlace de Boostrap-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Contactos</title>
+    <meta name="keywords" content="portafolio, web, html, css, bootstrap, js" />
+    <meta
+      name="description"
+      content="Mi nombre es John Zapata soy desarrollador web, con conocimiento en Html5, Css3, Sass, Github, Bootstrap y Js."
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="principal">
+      <nav>
+        <a href="./index.html" class="enlace">
+          <img src="./assets/img/logoazul.png" alt="" class="logo" />
+        </a>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="./index.html" target="_self">Inicio</a></li>
+          <li><a href="./portafolio.html" target="_self">Portafolio</a></li>
+          <li><a href="./habilidades.html" target="_self">Habilidades</a></li>
+          <li><a class="active" href="#">Contanto</a></li>
+          <li>
+            <a href="./assets/img/jzcv.pdf" target="_blank"
+              >Descarga curriculum</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="contacto">
+      <div class="col-md-6 mt-1">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="text-center"><b>Contactame</b></h3>
+            <hr />
+            <form>
+              <div class="md-form">
+                <span>Nombre:</span>
+                <input
+                  type="text"
+                  id="nombre"
+                  placeholder="Ingrese su nombre"
+                  class="form-control"
+                />
+              </div>
+              <div class="md-form">
+                <span>Email:</span>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Ingrese su Correo"
+                  class="form-control"
+                />
+              </div>
+              <div class="md-form">
+                <span>Mensaje:</span>
+                <textarea
+                  placeholder="Escriba aqui su mensaje..."
+                  cols="58"
+                  rows="5"
+                ></textarea>
+              </div>
+              <form>
+                <br />
+                <input type="submit" value="Enviar email" />
+              </form>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/301a73ada2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
