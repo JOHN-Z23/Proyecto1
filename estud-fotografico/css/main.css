@@ -110,6 +110,7 @@ header {
   top: 0;
   border-top: 30px solid #343533;
   width: 100%;
+  z-index: 1;
 }
 
 .wrapper {
@@ -257,6 +258,7 @@ nav ul a:hover {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
+  z-index: -10;
 }
 .galeria-grid img{
   width: 100%;
