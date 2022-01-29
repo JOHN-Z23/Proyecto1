@@ -167,7 +167,9 @@ nav ul a:hover {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
-
+.folio .porta {
+  color: rgb(97, 96, 96);
+}
 .presentacion .flex-item2 {
   text-align: right;
   margin-left: 50px;
@@ -244,7 +246,6 @@ nav ul a:hover {
     padding-left: 0;
   }
 }
-
 @media (max-width: 420px) {
   .presentacion div {
     text-align: center;
