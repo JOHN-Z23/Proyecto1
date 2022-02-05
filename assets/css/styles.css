@@ -136,7 +136,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border-radius: 40%;
+	border-radius: 49%;
 	animation-name: sombra;
 	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
